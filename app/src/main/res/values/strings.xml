@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrawingAndGuessing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ta_connect_me">TA连我</string>
+    <string name="me_connect_ta">我连TA</string>
+    <string name="connect">连接</string>
+    <string name="send">发送</string>
+    <string name="clear">清空</string>
+</resources>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.daiyiming.drawandguess.fragment.SelectionFragment">
+
+    <TextView
+        android:id="@+id/tv_connect_me"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawable_ta_connect_me_background"
+        android:gravity="center"
+        android:text="@string/ta_connect_me"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/tv_connect_ta"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawable_me_connect_ta_background"
+        android:gravity="center"
+        android:text="@string/me_connect_ta"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ee3388"
+    tools:context="com.example.daiyiming.drawandguess.fragment.ConnectTaFragment">
+
+    <EditText
+        android:id="@+id/edt_ip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:text="@string/connect"
+        android:layout_below="@id/edt_ip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="clickToConnect"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+</RelativeLayout>

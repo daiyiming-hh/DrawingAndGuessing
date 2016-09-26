@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.daiyiming.drawandguess.fragment.GameFragment">
+
+    <com.example.daiyiming.drawandguess.view.DrawCanvas
+        android:id="@+id/dc_game_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:text="@string/clear"/>
+
+    <LinearLayout
+        android:id="@+id/ll_message_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white">
+        <EditText
+            android:id="@+id/edt_message"
+            android:inputType="text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="@string/send"/>
+    </LinearLayout>
+
+    <View
+        android:layout_above="@id/ll_message_container"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@drawable/drawable_up_shadow"/>
+
+</RelativeLayout>
